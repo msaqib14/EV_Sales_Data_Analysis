@@ -102,3 +102,4 @@ select *,row_number()over(order by sales_date) as day_since_launch, case when la
  from percentage_7_change  p1 
  join percentage_7_le p2 
  on p1.day_since_launch = p2.day_since_launch;
+ 
